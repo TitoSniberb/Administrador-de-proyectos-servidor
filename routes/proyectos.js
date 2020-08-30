@@ -3,7 +3,6 @@ const router = express.Router();
 const proyectoController = require('../controllers/proyectoController');
 const auth = require('../middleware/auth');
 const { check } = require('express-validator');
-const { insertMany } = require('../models/Usuario');
 
 // Crea proyectos api/proyectos
 router.post('/', 
